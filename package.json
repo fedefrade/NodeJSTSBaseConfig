@@ -1,0 +1,13 @@
+{
+  "name": "node_base",
+  "version": "0.0.1",
+  "description": "Node.js on Docker with linters and nodemon for dev",
+  "author": "Federico Frade <fedefrade21@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node -T src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
