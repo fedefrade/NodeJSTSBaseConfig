@@ -8,6 +8,8 @@
     "start": "ts-node -T src/server.ts"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   }
 }
