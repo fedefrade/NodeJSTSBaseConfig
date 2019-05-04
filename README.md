@@ -25,6 +25,17 @@ $ docker build -t image_name_you_like .
 $ docker run -p local_port:container_exposed_port -d image_name_you_like
 ```
 
+# Run test
+First ensure the app is running if its not:
+```sh
+$ npm start
+```
+
+Change to another console or tab and then run:
+```sh
+$ npm test
+```
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
 
