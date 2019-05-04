@@ -7,7 +7,7 @@
   "scripts": {
     "start": "ts-node -T src/server.ts",
     "lint": "npx eslint src/*",
-    "test:unit": "npm run lint && mocha",
+    "test:unit": "npm start && npm run lint && mocha",
     "test": "mocha"
   },
   "husky": {
