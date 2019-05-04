@@ -17,7 +17,7 @@ function startApp() {
     res: express.Response,
   ) => res.send("pong"));
 
-  app.listen(PORT, HOST);
+  app.listen(PORT);
   // eslint-disable-next-line no-console
   console.log(`Running on http://${HOST}:${PORT}`);
 }
