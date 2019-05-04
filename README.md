@@ -2,10 +2,11 @@
 
 TODO:
 1. Add Linters.                                   V
-2. Add pre-commit and pre-push.
-3. Add tests.
+2. Add pre-commit and pre-push.                   V
+3. Add tests.                                     V
 4. Add debug.
-5. En nuevos branches para que sean opcionales:
+5. Add nodemon to develop scope.
+6. En nuevos branches para que sean opcionales:
   a. Typeorm
 
 Links:
