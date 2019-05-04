@@ -1,4 +1,6 @@
 FROM node:10
+ENV PORT 8080
+ENV HOST "0.0.0.0"
 # Create app directory
 WORKDIR /usr/src/app
 COPY package*.json ./

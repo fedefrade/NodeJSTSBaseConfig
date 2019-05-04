@@ -2,8 +2,8 @@ import * as express from "express";
 import * as bodyParser from "body-parser";
 
 // Constants
-const PORT = 8080;
-const HOST = "0.0.0.0";
+const PORT = process.env.PORT || 8080;
+const HOST = process.env.HOST || "0.0.0.0";
 
 let app: express.Application;
 
